@@ -31,7 +31,7 @@ switch (comando) {
         if (pais != 'Argentina') {
             alert('Nuestra entrega no llega hasta tu pais.')
         } else if (pais == 'Argentina') {
-            let provincia = ('Cual es tu provincia:');
+            let provincia = prompt('Cual es tu provincia:');
             alert('Hemos registrado tu pedido al 100%, te informaremos cuando el mismo se este enviando.')
         } 
         break;
